@@ -3,10 +3,6 @@
 
 }
 
-html {
-    background-color: gray;
-}
-
 h1 {
     width: 100%;
     text-align: center;
@@ -16,11 +12,12 @@ h1 {
 }
 
 .intro {
-    width: 80%;
-    box-align: center;
-    align-content: center;
-    margin: 5rem;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
     padding: 2rem;
     border: 10px;
     border-color: lawngreen;
+    background-color: black;
+    color: lawngreen;
 }
