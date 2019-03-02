@@ -6,8 +6,10 @@ const hostname = '127.0.0.1'   // set constants
 const port = 3002
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname + '/html/index.html'))
+  res.sendFile(path.join(__dirname + '/public/html/index.html'))
 })
+
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // handle non-existant routes
 app.use((req, res, next) => {

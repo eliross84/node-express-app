@@ -1,0 +1,26 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+html {
+    background-color: gray;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: lawngreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro {
+    width: 80%;
+    box-align: center;
+    align-content: center;
+    margin: 5rem;
+    padding: 2rem;
+    border: 10px;
+    border-color: lawngreen;
+}
