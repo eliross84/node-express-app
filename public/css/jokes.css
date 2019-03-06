@@ -12,11 +12,13 @@ header{
 }
 
 main{
-    padding-top: 10rem;
+    padding-top: 8rem;
+    background-color: darkgray;
 }
 
 p {
     padding: 2rem;
+    text-align: center;
 }
 
 aside {
